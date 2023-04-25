@@ -1,0 +1,15 @@
+.app {
+  color: orange;
+  font-weight: bolder;
+  font-size: 24px;
+
+  .checkboxComp{
+    height: 24px;
+    width: 24px;
+    border-radius: 4px;
+  }
+  .checkboxComp:checked{
+    border-radius: 4px;
+    background: rgba(33, 150, 243, 0.12);
+  }
+}
